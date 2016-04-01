@@ -1,0 +1,141 @@
+html, body{
+   overflow-x: hidden;
+   width:1440px;
+ }
+ body {
+   font-family: "Lato", Helvetica, Arial, sans-serif;
+   color:#333333;
+   letter-spacing: 1px;
+ }
+ h1, h2, h3, h4, h5, h6 {
+   font-family: "Lato", Helvetica, Arial, sans-serif;
+ }
+
+ h1 {
+   letter-spacing: 3px;
+   font-size: 28px;
+ }
+
+ h2 {
+   font-size:28px;
+   font-weight: bold;
+   margin-bottom: 5px;
+ }
+ p {
+   font-size:16px;
+   line-height: 19px;
+   font-weight: 100;
+ }
+
+.navbar {
+   margin: 20px auto;
+}
+
+.navbar a {
+   text-decoration: none;
+   color: #5BBCC9;
+}
+
+.navbar ul {
+   list-style-type: none; 
+   padding: 0px;
+}
+
+.navbar li {
+   display: inline-block;
+   margin: 0px 15px;
+   font-size: 12px;
+}
+
+.navbar div {
+   display: inline-block;
+}
+
+.site-logo {
+   margin: 0px 0px 0px 75px;
+}
+
+.nav-sections {
+   vertical-align: top;
+   margin-left: 20px;
+}
+
+.signinup {
+   float: right;
+   margin-right: 150px;
+}
+
+.hero {
+   background-image: url("../images/hero-homepage.png");
+   height: 827px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+.hero h1 {
+   padding-top: 300px;
+}
+
+.hero p {
+   margin-bottom: 30px;
+}
+
+ /* BUTTONS */
+ .btn {
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 12px;
+   letter-spacing: 1px;
+   text-decoration: none;
+   padding:10px 30px;
+   background: #F4AF3E;
+ }
+
+ /* GRID */
+ .container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-right: 15px;
+   position: relative;
+ }
+ .container:before,
+ .container:after {
+   content: " ";
+   display: ;
+ }
+ .container:after {
+   clear: both;
+ }
+ .one-half, .one-third, .one-fourth {
+   width:96%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 20px;
+ }
+
+ .row-blue {
+   background-color: #5BBCC9;
+ }
+
+ .left-side {
+   display: inline-block;
+   width:800px;
+   vertical-align: middle;
+   text-align: center;
+   margin: auto;
+ }
+
+ .left-p {
+   width: 300px;
+   text-align: center;
+   margin: auto;
+ }
+
+ .right-side {
+   display: inline-block;
+   width:500px;
+   text-align: center;
+   vertical-align: middle;
+   margin: auto;
+ }
