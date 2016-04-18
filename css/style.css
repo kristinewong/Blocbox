@@ -329,6 +329,44 @@ html, body{
    margin-top: 30px;
  }
 
+/* FOOTER */
+ footer {
+   background-color: #092930;
+   color: #FFFFFF;
+   height: 60px;
+   position: relative;
+   overflow: hidden;
+   z-index: 0;
+ }
+ footer p, footer nav ul {
+   font-size:12px;
+   font-weight:100;
+   text-align: center;
+   margin: 0px auto 0;
+ }
+ footer nav ul li {
+   list-style-type: none;
+   display: inline;
+ }
+ footer nav ul li a {
+   color:#FFFFFF;
+   text-decoration: none;
+ }
+ footer .right-footer-block {
+   background-color: transparent;
+ }
+
+
+@media (min-width: 992px){
+   footer{
+     background-color: #092930;
+   }
+   footer p, footer nav ul{
+     padding: 2em 0;
+     text-align: left;
+   }
+ }
+
 /*
 
  .container {
