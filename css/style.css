@@ -1,7 +1,7 @@
 html, body{
    overflow-x: hidden;
-   width:1440px;
  }
+
  body {
    font-family: "Lato", Helvetica, Arial, sans-serif;
    color:#333333;
@@ -26,6 +26,57 @@ html, body{
    line-height: 19px;
    font-weight: 100;
  }
+
+ /* GRID */
+ .container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+ .container:before,
+ .container:after {
+   content: " ";
+   display: table;
+ }
+ .container:after {
+   clear: both;
+ }
+ .one-half, .one-third, .one-fourth {
+   width:96%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 20px;
+ }
+
+@media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+ @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+   .one-half {
+     width:46%;
+   }
+   .one-third {
+     width:29.33333%;
+   }
+   .one-fourth {
+     width:21%;
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+
+
 
 .navbar {
    margin: 20px auto;
@@ -91,7 +142,16 @@ html, body{
    background: #F4AF3E;
  }
 
- /* GRID */
+ @media (max-width: 1000px) {
+   .container {
+     width: 750px;
+   }
+   .left-side {
+      display: none !important;
+   }
+ }
+/*
+
  .container {
    margin-right: auto;
    margin-left: auto;
@@ -139,3 +199,4 @@ html, body{
    vertical-align: middle;
    margin: auto;
  }
+ */
